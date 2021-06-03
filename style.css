@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(199, 208, 224);
+}
+.input-labels{
+    display: inline;
+}
+#user_name{
+    width: 55%;
+    height: 40px;
+    border: none;
+}
+#user_pass{
+    width: 55%;
+    height: 40px;
+    margin-top: 2%;
+    border: none;
+
+}
+#login-form{
+    width: 40%;
+    margin-top: 300px;
+    padding-top: 40px;
+    border-radius: 20px;
+    background-color: rgb(112, 146, 190);
+    height: 250px
+}
+#login-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#btn-login{
+    width: 55%;
+    height: 45px;
+    background-color: rgb(107, 107, 107);
+    margin-top: 2%;
+    color: white;
+    font-size: 20px;
+}
+#btn-login:hover{
+    background-color: rgb(95, 95, 95);
+}
+#kerdes{
+    color: white;
+    font-size: 14px;
+    margin-top: 1%;
+}
+input{
+    padding-left: 20px;
+}
+/*itt regisztrálni részt kiemelni*/
+
+/*-----------------------regisztrációs rész--------------------------*/
+
+
+#regiszt_kozep{
+    width: 40%;
+    padding-top: 40px;
+    border-radius: 20px;
+    background-color: rgb(112, 146, 190);
+    height: 550px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+}
+.first-last-div:first-child{
+    display: inline;
+    float: left;
+}
+.user_name_first_register{
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+.first-last-div{
+    margin-left: auto;
+    margin-right: auto;
+}
+.nevek{
+    margin-bottom: auto;
+    color: white;
+}
+#kereszt{
+    margin-right: 27px;
+}
+.user_name_register{
+    width: 85%;
+    height: 40px;
+    border: none;
+}
+.form-check{
+    color: white;
+    text-align: left;
+    margin-left: 58px;
+}
+.container{
+    text-align: center;
+}
+.form-group{
+    text-align: left;
+    margin-left: 58px;
+}
+
+

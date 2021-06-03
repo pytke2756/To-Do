@@ -1,0 +1,16 @@
+CREATE DATABASE to_do
+CHARACTER SET utf8 
+COLLATE utf8_hungarian_ci; 
+USE to_do
+
+create table users (
+id int(100) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+user_name varchar(25),
+user_pass varchar(25),
+first_name varchar(35),
+last_name varchar(35),
+user_mail varchar(35)
+);
+
+INSERT INTO `users`(`id`, `user_name`, `user_pass`, `first_name`, `last_name`, `user_mail`) 
+VALUES (0, 'admin', 'admin', 'Admin First', 'Admin Last', 'admin@todo.hu');
